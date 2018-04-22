@@ -1,61 +1,68 @@
 package main
 
+import "encoding/xml"
+
 type AccountTransactionEvent struct {
-	Timestamp      int64  `bson:"timestamp" json:"timestamp"`
-	Server         string `bson:"server" json:"server"`
-	TransactionNum int    `bson:"transactionnum" json:"transactionnum"`
-	Action         string `bson:"action" json:"action"`
-	UserId         string `bson:"userid" json:"userid"`
-	Funds          string `bson:"funds" json:"funds"`
-	EventType      string `bson:"eventtype" json:"eventtype"`
+	XMLName        xml.Name `xml:"accountTransaction"`
+	Timestamp      int64    `bson:"timestamp" json:"timestamp" xml:"timestamp"`
+	Server         string   `bson:"server" json:"server" xml:"server"`
+	TransactionNum int      `bson:"transactionnum" json:"transactionnum" xml:"transactionNum"`
+	Action         string   `bson:"action" json:"action" xml:"action"`
+	UserId         string   `bson:"userid" json:"userid" xml:"username"`
+	Funds          string   `bson:"funds" json:"funds" xml:"funds,omitempty"`
+	EventType      string   `bson:"eventtype" json:"eventtype" xml:"-"`
 }
 
 type SystemEvent struct {
-	Timestamp      int64  `bson:"timestamp" json:"timestamp"`
-	Server         string `bson:"server" json:"server"`
-	TransactionNum int    `bson:"transactionnum" json:"transactionnum"`
-	Command        string `bson:"command" json:"command"`
-	UserId         string `bson:"userid" json:"userid"`
-	StockSymbol    string `bson:"stocksymbol" json:"stocksymbol"`
-	Funds          string `bson:"funds" json:"funds"`
-	EventType      string `bson:"eventtype" json:"eventtype"`
+	XMLName        xml.Name `xml:"systemEvent"`
+	Timestamp      int64    `bson:"timestamp" json:"timestamp" xml:"timestamp"`
+	Server         string   `bson:"server" json:"server" xml:"server"`
+	TransactionNum int      `bson:"transactionnum" json:"transactionnum" xml:"transactionNum"`
+	Command        string   `bson:"command" json:"command" xml:"command,omitempty"`
+	UserId         string   `bson:"userid" json:"userid" xml:"username"`
+	StockSymbol    string   `bson:"stocksymbol" json:"stocksymbol" xml:"stockSymbol,omitempty"`
+	Funds          string   `bson:"funds" json:"funds" xml:"funds,omitempty"`
+	EventType      string   `bson:"eventtype" json:"eventtype" xml:"-"`
 }
 
 type QuoteServerEvent struct {
-	Timestamp            int64  `bson:"timestamp" json:"timestamp"`
-	Server               string `bson:"server" json:"server"`
-	TransactionNum       int    `bson:"transactionnum" json:"transactionnum"`
-	QuoteServerEventTime int64  `bson:"quoteservereventtime" json:"quoteservereventtime"`
-	UserId               string `bson:"userid" json:"userid"`
-	StockSymbol          string `bson:"stocksymbol" json:"stocksymbol"`
-	Price                string `bson:"price" json:"price"`
-	Cryptokey            string `bson:"cryptokey" json:"cryptokey"`
-	EventType            string `bson:"eventtype" json:"eventtype"`
+	XMLName              xml.Name `xml:"quoteServer"`
+	Timestamp            int64    `bson:"timestamp" json:"timestamp" xml:"timestamp"`
+	Server               string   `bson:"server" json:"server" xml:"server"`
+	TransactionNum       int      `bson:"transactionnum" json:"transactionnum" xml:"transactionNum"`
+	QuoteServerEventTime int64    `bson:"quoteservereventtime" json:"quoteservereventtime" xml:"quoteServerTime"`
+	UserId               string   `bson:"userid" json:"userid" xml:"username"`
+	StockSymbol          string   `bson:"stocksymbol" json:"stocksymbol" xml:"stockSymbol,omitempty"`
+	Price                string   `bson:"price" json:"price" xml:"price"`
+	Cryptokey            string   `bson:"cryptokey" json:"cryptokey" xml:"cryptokey"`
+	EventType            string   `bson:"eventtype" json:"eventtype" xml:"-"`
 }
 
 type ErrorEvent struct {
-	Timestamp      int64  `bson:"timestamp" json:"timestamp"`
-	Server         string `bson:"server" json:"server"`
-	TransactionNum int    `bson:"transactionnum" json:"transactionnum"`
-	Command        string `bson:"command" json:"command"`
-	UserId         string `bson:"userid" json:"userid"`
-	StockSymbol    string `bson:"stocksymbol" json:"stocksymbol"`
-	Funds          string `bson:"funds" json:"funds"`
-	ErrorMessage   string `bson:"errormessage" json:"errormessage"`
-	EventType      string `bson:"eventtype" json:"eventtype"`
+	XMLName        xml.Name `xml:"errorEvent"`
+	Timestamp      int64    `bson:"timestamp" json:"timestamp" xml:"timestamp"`
+	Server         string   `bson:"server" json:"server" xml:"server"`
+	TransactionNum int      `bson:"transactionnum" json:"transactionnum" xml:"transactionNum"`
+	Command        string   `bson:"command" json:"command" xml:"command,omitempty"`
+	UserId         string   `bson:"userid" json:"userid" xml:"username"`
+	StockSymbol    string   `bson:"stocksymbol" json:"stocksymbol" xml:"stockSymbol,omitempty"`
+	Funds          string   `bson:"funds" json:"funds" xml:"funds,omitempty"`
+	ErrorMessage   string   `bson:"errormessage" json:"errormessage" xml:"errorMessage"`
+	EventType      string   `bson:"eventtype" json:"eventtype" xml:"-"`
 }
 
 type UserCommand struct {
-	Timestamp      int64  `bson:"timestamp" json:"timestamp"`
-	Server         string `bson:"server" json:"server"`
-	TransactionNum int    `bson:"transactionnum" json:"transactionnum"`
-	Command        string `bson:"command" json:"command"`
-	UserId         string `bson:"userid" json:"userid"`
-	StockSymbol    string `bson:"stocksymbol" json:"stocksymbol"`
-	Funds          string `bson:"funds" json:"funds"`
-	EventType      string `bson:"eventtype" json:"eventtype"`
+	XMLName        xml.Name `xml:"userCommand"`
+	Timestamp      int64    `bson:"timestamp" json:"timestamp" xml:"timestamp"`
+	Server         string   `bson:"server" json:"server" xml:"server"`
+	TransactionNum int      `bson:"transactionnum" json:"transactionnum" xml:"transactionNum"`
+	Command        string   `bson:"command" json:"command" xml:"command,omitempty"`
+	UserId         string   `bson:"userid" json:"userid" xml:"username,omitempty"`
+	StockSymbol    string   `bson:"stocksymbol" json:"stocksymbol" xml:"stockSymbol,omitempty"`
+	Funds          string   `bson:"funds" json:"funds" xml:"funds,omitempty"`
+	EventType      string   `bson:"eventtype" json:"eventtype" xml:"-"`
 }
 
 type GenericEventType struct {
-	EventType string `bson:"eventtype" json:"eventtype"`
+	EventType string `bson:"eventtype" json:"eventtype" xml:"-"`
 }

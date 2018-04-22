@@ -12,7 +12,7 @@ import (
 const (
 	Database     = "auditServerEvents"
 	Collection   = "systemEvents_collection"
-	MongoDBHosts = "mongoserver:27017"
+	MongoDBHosts = "localhost:27017"
 )
 
 func getDBCollection() *mgo.Collection {
@@ -29,6 +29,15 @@ func getDBCollection() *mgo.Collection {
 		glog.Info("ERROR: CreateSession: %s\n", err)
 	} else {
 		eventsCollection := mongoSession.DB(Database).C(Collection)
+		index := mgo.Index{
+			Key:        []string{"eventtype"},
+			Unique:     false,
+			DropDups:   false,
+			Background: false, // See notes.
+			Sparse:     false,
+		}
+
+		eventsCollection.EnsureIndex(index)
 		return eventsCollection
 	}
 	return nil
@@ -38,17 +47,21 @@ func findAllAndLogToFile(eventsCollection *mgo.Collection) {
 	glog.Info("Retrieving all records")
 	var result []interface{}
 	iter := eventsCollection.Find(nil)
+
+	glog.Info("Done retrieving")
 	err := iter.All(&result)
 	if err != nil {
 		glog.Info("Error: ", err)
 	} else {
 		glog.Info("Logging events to XML file")
+		openXMLFile()
 		for event := range result {
 			var tempEvent GenericEventType
 			bsonBytes, _ := bson.Marshal(result[event])
 			bson.Unmarshal(bsonBytes, &tempEvent)
 			logEventToXML(tempEvent, result[event])
 		}
+		closeXMLFile()
 		glog.Info("========= XML File is ready! :D ========= ")
 	}
 }

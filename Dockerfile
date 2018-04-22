@@ -9,8 +9,6 @@ RUN go get "github.com/gin-gonic/gin"
 
 RUN go get "gopkg.in/mgo.v2"
 
-RUN go get -v "github.com/beevik/etree"
-
 RUN go get "gopkg.in/mgo.v2/bson"
 
 RUN go get "github.com/gorilla/mux"

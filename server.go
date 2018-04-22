@@ -117,7 +117,7 @@ func main() {
 	}
 
 	glog.Info("Connecting to mongoDb")
-	clearDb(eventsCollection)
+	// clearDb(eventsCollection)
 	initXml()
 
 	router.HandleFunc("/", homeFunc).Methods("GET")
