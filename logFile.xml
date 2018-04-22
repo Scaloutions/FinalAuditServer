@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <log>
     <accountTransaction>
-        <timestamp>1524385573867</timestamp>
+        <timestamp>1524388276484</timestamp>
         <server>TS0156</server>
         <transactionNum>1</transactionNum>
         <username>oY01WVirLr</username>
@@ -9,17 +9,17 @@
         <funds>63511.00</funds>
     </accountTransaction>
     <quoteServer>
-        <timestamp>1524385576877</timestamp>
+        <timestamp>1524388277503</timestamp>
         <server>TS0156</server>
         <transactionNum>2</transactionNum>
-        <quoteServerTime>1524385576876</quoteServerTime>
+        <quoteServerTime>1524388277502</quoteServerTime>
         <username>oY01WVirLr</username>
         <stockSymbol></stockSymbol>
-        <price>0.77</price>
+        <price>0.00</price>
         <cryptokey>PXdxruf7H5p9Br19Si5hq</cryptokey>
     </quoteServer>
     <userCommand>
-        <timestamp>1524385576880</timestamp>
+        <timestamp>1524388277520</timestamp>
         <server>TS0156</server>
         <transactionNum>3</transactionNum>
         <command>BUY</command>
@@ -28,17 +28,17 @@
         <funds>276.00</funds>
     </userCommand>
     <quoteServer>
-        <timestamp>1524385579885</timestamp>
+        <timestamp>1524388280524</timestamp>
         <server>TS0156</server>
         <transactionNum>3</transactionNum>
-        <quoteServerTime>1524385579884</quoteServerTime>
+        <quoteServerTime>1524388280524</quoteServerTime>
         <username>oY01WVirLr</username>
         <stockSymbol>S</stockSymbol>
-        <price>0.92</price>
+        <price>0.38</price>
         <cryptokey>PXdxruf7H5p9Br19Si5hq</cryptokey>
     </quoteServer>
     <errorEvent>
-        <timestamp>1524385579889</timestamp>
+        <timestamp>1524388280529</timestamp>
         <server>TS0156</server>
         <transactionNum>4</transactionNum>
         <command>COMMIT_BUY</command>
@@ -47,7 +47,7 @@
         <errorMessage>No BUY transactions previously set for account.</errorMessage>
     </errorEvent>
     <errorEvent>
-        <timestamp>1524385579891</timestamp>
+        <timestamp>1524388280532</timestamp>
         <server>TS0156</server>
         <transactionNum>5</transactionNum>
         <command>COMMIT_SELL</command>
@@ -56,7 +56,7 @@
         <errorMessage>No SELL transactions previously set for account</errorMessage>
     </errorEvent>
     <errorEvent>
-        <timestamp>1524385579893</timestamp>
+        <timestamp>1524388280535</timestamp>
         <server>TS0156</server>
         <transactionNum>6</transactionNum>
         <command>CANCEL_SELL</command>
@@ -65,16 +65,16 @@
         <errorMessage>There are no SELL transcations to cancel for account oY01WVirLr</errorMessage>
     </errorEvent>
     <systemEvent>
-        <timestamp>1524385579894</timestamp>
+        <timestamp>1524388280536</timestamp>
         <server>TS0156</server>
         <transactionNum>7</transactionNum>
         <command>QUOTE</command>
         <username>oY01WVirLr</username>
         <stockSymbol></stockSymbol>
-        <funds>0.77</funds>
+        <funds>0.00</funds>
     </systemEvent>
     <accountTransaction>
-        <timestamp>1524385579896</timestamp>
+        <timestamp>1524388280546</timestamp>
         <server>TS0156</server>
         <transactionNum>8</transactionNum>
         <username>oY01WVirLr</username>
@@ -82,7 +82,7 @@
         <funds>45016.00</funds>
     </accountTransaction>
     <errorEvent>
-        <timestamp>1524385579899</timestamp>
+        <timestamp>1524388280548</timestamp>
         <server>TS0156</server>
         <transactionNum>9</transactionNum>
         <command>COMMIT_BUY</command>
@@ -91,7 +91,7 @@
         <errorMessage>No BUY transactions previously set for account.</errorMessage>
     </errorEvent>
     <errorEvent>
-        <timestamp>1524385579901</timestamp>
+        <timestamp>1524388280557</timestamp>
         <server>TS0156</server>
         <transactionNum>10</transactionNum>
         <command>COMMIT_BUY</command>
@@ -100,7 +100,7 @@
         <errorMessage>No BUY transactions previously set for account.</errorMessage>
     </errorEvent>
     <userCommand>
-        <timestamp>1524385579901</timestamp>
+        <timestamp>1524388280558</timestamp>
         <server>TS0156</server>
         <transactionNum>11</transactionNum>
         <command>DISPLAY_SUMMARY</command>
@@ -109,7 +109,7 @@
         <funds>0.00</funds>
     </userCommand>
     <accountTransaction>
-        <timestamp>1524385579915</timestamp>
+        <timestamp>1524388280566</timestamp>
         <server>TS0156</server>
         <transactionNum>12</transactionNum>
         <username>oY01WVirLr</username>
@@ -117,7 +117,7 @@
         <funds>71879.00</funds>
     </accountTransaction>
     <userCommand>
-        <timestamp>1524385579920</timestamp>
+        <timestamp>1524388280568</timestamp>
         <server>TS0156</server>
         <transactionNum>13</transactionNum>
         <command>BUY</command>
@@ -126,16 +126,16 @@
         <funds>303.00</funds>
     </userCommand>
     <systemEvent>
-        <timestamp>1524385579920</timestamp>
+        <timestamp>1524388280569</timestamp>
         <server>TS0156</server>
         <transactionNum>13</transactionNum>
         <command>QUOTE</command>
         <username>oY01WVirLr</username>
         <stockSymbol>S</stockSymbol>
-        <funds>0.92</funds>
+        <funds>0.38</funds>
     </systemEvent>
     <errorEvent>
-        <timestamp>1524385579928</timestamp>
+        <timestamp>1524388280572</timestamp>
         <server>TS0156</server>
         <transactionNum>14</transactionNum>
         <command>COMMIT_BUY</command>
@@ -144,7 +144,7 @@
         <errorMessage>No BUY transactions previously set for account.</errorMessage>
     </errorEvent>
     <errorEvent>
-        <timestamp>1524385579930</timestamp>
+        <timestamp>1524388280577</timestamp>
         <server>TS0156</server>
         <transactionNum>15</transactionNum>
         <command>COMMIT_BUY</command>
@@ -153,7 +153,7 @@
         <errorMessage>No BUY transactions previously set for account.</errorMessage>
     </errorEvent>
     <errorEvent>
-        <timestamp>1524385579933</timestamp>
+        <timestamp>1524388280582</timestamp>
         <server>TS0156</server>
         <transactionNum>16</transactionNum>
         <command>COMMIT_BUY</command>
@@ -162,7 +162,7 @@
         <errorMessage>No BUY transactions previously set for account.</errorMessage>
     </errorEvent>
     <errorEvent>
-        <timestamp>1524385579935</timestamp>
+        <timestamp>1524388280587</timestamp>
         <server>TS0156</server>
         <transactionNum>17</transactionNum>
         <command>COMMIT_SELL</command>
@@ -171,7 +171,7 @@
         <errorMessage>No SELL transactions previously set for account</errorMessage>
     </errorEvent>
     <accountTransaction>
-        <timestamp>1524385579937</timestamp>
+        <timestamp>1524388280595</timestamp>
         <server>TS0156</server>
         <transactionNum>18</transactionNum>
         <username>oY01WVirLr</username>
@@ -179,7 +179,7 @@
         <funds>74315.00</funds>
     </accountTransaction>
     <errorEvent>
-        <timestamp>1524385579939</timestamp>
+        <timestamp>1524388280597</timestamp>
         <server>TS0156</server>
         <transactionNum>19</transactionNum>
         <command>CANCEL_BUY</command>
@@ -188,7 +188,7 @@
         <errorMessage>There are no BUY transcations to cancel for account oY01WVirLr</errorMessage>
     </errorEvent>
     <errorEvent>
-        <timestamp>1524385579941</timestamp>
+        <timestamp>1524388280622</timestamp>
         <server>TS0156</server>
         <transactionNum>20</transactionNum>
         <command>CANCEL_SET_BUY</command>
@@ -197,7 +197,7 @@
         <errorMessage>No SET BUY AMOUNT was previously set for this account</errorMessage>
     </errorEvent>
     <errorEvent>
-        <timestamp>1524385579942</timestamp>
+        <timestamp>1524388280661</timestamp>
         <server>TS0156</server>
         <transactionNum>21</transactionNum>
         <command>COMMIT_SELL</command>
@@ -206,7 +206,7 @@
         <errorMessage>No SELL transactions previously set for account</errorMessage>
     </errorEvent>
     <userCommand>
-        <timestamp>1524385579944</timestamp>
+        <timestamp>1524388280664</timestamp>
         <server>TS0156</server>
         <transactionNum>22</transactionNum>
         <command>BUY</command>
@@ -215,16 +215,16 @@
         <funds>51.00</funds>
     </userCommand>
     <systemEvent>
-        <timestamp>1524385579944</timestamp>
+        <timestamp>1524388280665</timestamp>
         <server>TS0156</server>
         <transactionNum>22</transactionNum>
         <command>QUOTE</command>
         <username>oY01WVirLr</username>
         <stockSymbol>S</stockSymbol>
-        <funds>0.92</funds>
+        <funds>0.38</funds>
     </systemEvent>
     <errorEvent>
-        <timestamp>1524385579946</timestamp>
+        <timestamp>1524388280668</timestamp>
         <server>TS0156</server>
         <transactionNum>23</transactionNum>
         <command>COMMIT_BUY</command>
@@ -233,7 +233,7 @@
         <errorMessage>No BUY transactions previously set for account.</errorMessage>
     </errorEvent>
     <errorEvent>
-        <timestamp>1524385579948</timestamp>
+        <timestamp>1524388280683</timestamp>
         <server>TS0156</server>
         <transactionNum>24</transactionNum>
         <command>COMMIT_SELL</command>
@@ -242,7 +242,7 @@
         <errorMessage>No SELL transactions previously set for account</errorMessage>
     </errorEvent>
     <userCommand>
-        <timestamp>1524385579950</timestamp>
+        <timestamp>1524388280687</timestamp>
         <server>TS0156</server>
         <transactionNum>25</transactionNum>
         <command>BUY</command>
@@ -251,16 +251,16 @@
         <funds>156.00</funds>
     </userCommand>
     <systemEvent>
-        <timestamp>1524385579950</timestamp>
+        <timestamp>1524388280703</timestamp>
         <server>TS0156</server>
         <transactionNum>25</transactionNum>
         <command>QUOTE</command>
         <username>oY01WVirLr</username>
         <stockSymbol>S</stockSymbol>
-        <funds>0.92</funds>
+        <funds>0.38</funds>
     </systemEvent>
     <errorEvent>
-        <timestamp>1524385579965</timestamp>
+        <timestamp>1524388280708</timestamp>
         <server>TS0156</server>
         <transactionNum>26</transactionNum>
         <command>COMMIT_BUY</command>
@@ -269,7 +269,7 @@
         <errorMessage>No BUY transactions previously set for account.</errorMessage>
     </errorEvent>
     <userCommand>
-        <timestamp>1524385579967</timestamp>
+        <timestamp>1524388280716</timestamp>
         <server>TS0156</server>
         <transactionNum>27</transactionNum>
         <command>BUY</command>
@@ -278,16 +278,16 @@
         <funds>575.00</funds>
     </userCommand>
     <systemEvent>
-        <timestamp>1524385579968</timestamp>
+        <timestamp>1524388280718</timestamp>
         <server>TS0156</server>
         <transactionNum>27</transactionNum>
         <command>QUOTE</command>
         <username>oY01WVirLr</username>
         <stockSymbol>S</stockSymbol>
-        <funds>0.92</funds>
+        <funds>0.38</funds>
     </systemEvent>
     <errorEvent>
-        <timestamp>1524385579970</timestamp>
+        <timestamp>1524388280733</timestamp>
         <server>TS0156</server>
         <transactionNum>28</transactionNum>
         <command>CANCEL_SELL</command>
@@ -296,7 +296,7 @@
         <errorMessage>There are no SELL transcations to cancel for account oY01WVirLr</errorMessage>
     </errorEvent>
     <userCommand>
-        <timestamp>1524385579970</timestamp>
+        <timestamp>1524388280734</timestamp>
         <server>TS0156</server>
         <transactionNum>29</transactionNum>
         <command>DISPLAY_SUMMARY</command>
@@ -305,7 +305,7 @@
         <funds>0.00</funds>
     </userCommand>
     <userCommand>
-        <timestamp>1524385579972</timestamp>
+        <timestamp>1524388280778</timestamp>
         <server>TS0156</server>
         <transactionNum>30</transactionNum>
         <command>SET_BUY_AMOUNT</command>
@@ -314,16 +314,16 @@
         <funds>658.00</funds>
     </userCommand>
     <systemEvent>
-        <timestamp>1524385579974</timestamp>
+        <timestamp>1524388280781</timestamp>
         <server>TS0156</server>
         <transactionNum>31</transactionNum>
         <command>QUOTE</command>
         <username>oY01WVirLr</username>
         <stockSymbol>S</stockSymbol>
-        <funds>0.92</funds>
+        <funds>0.38</funds>
     </systemEvent>
     <userCommand>
-        <timestamp>1524385579974</timestamp>
+        <timestamp>1524388280781</timestamp>
         <server>TS0156</server>
         <transactionNum>31</transactionNum>
         <command>SELL</command>
@@ -332,7 +332,7 @@
         <funds>641.00</funds>
     </userCommand>
     <errorEvent>
-        <timestamp>1524385579975</timestamp>
+        <timestamp>1524388280782</timestamp>
         <server>TS0156</server>
         <transactionNum>31</transactionNum>
         <command>SELL</command>
@@ -341,7 +341,7 @@
         <errorMessage>User does not have enough stock S to sell.</errorMessage>
     </errorEvent>
     <errorEvent>
-        <timestamp>1524385579977</timestamp>
+        <timestamp>1524388280785</timestamp>
         <server>TS0156</server>
         <transactionNum>32</transactionNum>
         <command>COMMIT_SELL</command>
@@ -350,7 +350,7 @@
         <errorMessage>No SELL transactions previously set for account</errorMessage>
     </errorEvent>
     <errorEvent>
-        <timestamp>1524385579979</timestamp>
+        <timestamp>1524388280787</timestamp>
         <server>TS0156</server>
         <transactionNum>33</transactionNum>
         <command>COMMIT_BUY</command>
@@ -359,7 +359,7 @@
         <errorMessage>No BUY transactions previously set for account.</errorMessage>
     </errorEvent>
     <errorEvent>
-        <timestamp>1524385579981</timestamp>
+        <timestamp>1524388280789</timestamp>
         <server>TS0156</server>
         <transactionNum>34</transactionNum>
         <command>CANCEL_SET_SELL</command>
@@ -368,7 +368,7 @@
         <errorMessage>No SET SELL AMOUNT was previously set for this account</errorMessage>
     </errorEvent>
     <errorEvent>
-        <timestamp>1524385579982</timestamp>
+        <timestamp>1524388280795</timestamp>
         <server>TS0156</server>
         <transactionNum>35</transactionNum>
         <command>COMMIT_SELL</command>
@@ -377,7 +377,7 @@
         <errorMessage>No SELL transactions previously set for account</errorMessage>
     </errorEvent>
     <errorEvent>
-        <timestamp>1524385579985</timestamp>
+        <timestamp>1524388280800</timestamp>
         <server>TS0156</server>
         <transactionNum>36</transactionNum>
         <command>CANCEL_BUY</command>
@@ -386,7 +386,7 @@
         <errorMessage>There are no BUY transcations to cancel for account oY01WVirLr</errorMessage>
     </errorEvent>
     <errorEvent>
-        <timestamp>1524385579995</timestamp>
+        <timestamp>1524388280806</timestamp>
         <server>TS0156</server>
         <transactionNum>37</transactionNum>
         <command>CANCEL_SELL</command>
@@ -395,7 +395,7 @@
         <errorMessage>There are no SELL transcations to cancel for account oY01WVirLr</errorMessage>
     </errorEvent>
     <userCommand>
-        <timestamp>1524385580007</timestamp>
+        <timestamp>1524388280811</timestamp>
         <server>TS0156</server>
         <transactionNum>38</transactionNum>
         <command>BUY</command>
@@ -404,34 +404,25 @@
         <funds>264.00</funds>
     </userCommand>
     <systemEvent>
-        <timestamp>1524385580009</timestamp>
+        <timestamp>1524388280813</timestamp>
         <server>TS0156</server>
         <transactionNum>38</transactionNum>
         <command>QUOTE</command>
         <username>oY01WVirLr</username>
         <stockSymbol>S</stockSymbol>
-        <funds>0.92</funds>
+        <funds>0.38</funds>
     </systemEvent>
     <systemEvent>
-        <timestamp>1524385580011</timestamp>
+        <timestamp>1524388280821</timestamp>
         <server>TS0156</server>
         <transactionNum>39</transactionNum>
         <command>QUOTE</command>
         <username>oY01WVirLr</username>
         <stockSymbol></stockSymbol>
-        <funds>0.77</funds>
-    </systemEvent>
-    <systemEvent>
-        <timestamp>1524385580034</timestamp>
-        <server>TS0156</server>
-        <transactionNum>40</transactionNum>
-        <command>QUOTE</command>
-        <username>oY01WVirLr</username>
-        <stockSymbol>S</stockSymbol>
-        <funds>0.92</funds>
+        <funds>0.00</funds>
     </systemEvent>
     <userCommand>
-        <timestamp>1524385580033</timestamp>
+        <timestamp>1524388280824</timestamp>
         <server>TS0156</server>
         <transactionNum>40</transactionNum>
         <command>BUY</command>
@@ -439,8 +430,17 @@
         <stockSymbol>S</stockSymbol>
         <funds>657.00</funds>
     </userCommand>
+    <systemEvent>
+        <timestamp>1524388280824</timestamp>
+        <server>TS0156</server>
+        <transactionNum>40</transactionNum>
+        <command>QUOTE</command>
+        <username>oY01WVirLr</username>
+        <stockSymbol>S</stockSymbol>
+        <funds>0.38</funds>
+    </systemEvent>
     <errorEvent>
-        <timestamp>1524385580036</timestamp>
+        <timestamp>1524388280827</timestamp>
         <server>TS0156</server>
         <transactionNum>41</transactionNum>
         <command>COMMIT_BUY</command>
@@ -449,7 +449,7 @@
         <errorMessage>No BUY transactions previously set for account.</errorMessage>
     </errorEvent>
     <userCommand>
-        <timestamp>1524385580036</timestamp>
+        <timestamp>1524388280827</timestamp>
         <server>TS0156</server>
         <transactionNum>42</transactionNum>
         <command>DISPLAY_SUMMARY</command>
@@ -458,7 +458,7 @@
         <funds>0.00</funds>
     </userCommand>
     <userCommand>
-        <timestamp>1524385580038</timestamp>
+        <timestamp>1524388280830</timestamp>
         <server>TS0156</server>
         <transactionNum>43</transactionNum>
         <command>BUY</command>
@@ -467,16 +467,16 @@
         <funds>710.00</funds>
     </userCommand>
     <systemEvent>
-        <timestamp>1524385580038</timestamp>
+        <timestamp>1524388280830</timestamp>
         <server>TS0156</server>
         <transactionNum>43</transactionNum>
         <command>QUOTE</command>
         <username>oY01WVirLr</username>
         <stockSymbol>S</stockSymbol>
-        <funds>0.92</funds>
+        <funds>0.38</funds>
     </systemEvent>
     <errorEvent>
-        <timestamp>1524385580040</timestamp>
+        <timestamp>1524388280832</timestamp>
         <server>TS0156</server>
         <transactionNum>44</transactionNum>
         <command>COMMIT_BUY</command>
@@ -485,7 +485,7 @@
         <errorMessage>No BUY transactions previously set for account.</errorMessage>
     </errorEvent>
     <userCommand>
-        <timestamp>1524385580042</timestamp>
+        <timestamp>1524388280834</timestamp>
         <server>TS0156</server>
         <transactionNum>45</transactionNum>
         <command>BUY</command>
@@ -494,16 +494,16 @@
         <funds>208.00</funds>
     </userCommand>
     <systemEvent>
-        <timestamp>1524385580042</timestamp>
+        <timestamp>1524388280834</timestamp>
         <server>TS0156</server>
         <transactionNum>45</transactionNum>
         <command>QUOTE</command>
         <username>oY01WVirLr</username>
         <stockSymbol>S</stockSymbol>
-        <funds>0.92</funds>
+        <funds>0.38</funds>
     </systemEvent>
     <errorEvent>
-        <timestamp>1524385580044</timestamp>
+        <timestamp>1524388280837</timestamp>
         <server>TS0156</server>
         <transactionNum>46</transactionNum>
         <command>COMMIT_BUY</command>
@@ -512,7 +512,7 @@
         <errorMessage>No BUY transactions previously set for account.</errorMessage>
     </errorEvent>
     <userCommand>
-        <timestamp>1524385580045</timestamp>
+        <timestamp>1524388280838</timestamp>
         <server>TS0156</server>
         <transactionNum>47</transactionNum>
         <command>DISPLAY_SUMMARY</command>
@@ -521,7 +521,7 @@
         <funds>0.00</funds>
     </userCommand>
     <accountTransaction>
-        <timestamp>1524385580048</timestamp>
+        <timestamp>1524388280849</timestamp>
         <server>TS0156</server>
         <transactionNum>48</transactionNum>
         <username>oY01WVirLr</username>
@@ -529,7 +529,7 @@
         <funds>52802.00</funds>
     </accountTransaction>
     <userCommand>
-        <timestamp>1524385580051</timestamp>
+        <timestamp>1524388280852</timestamp>
         <server>TS0156</server>
         <transactionNum>49</transactionNum>
         <command>BUY</command>
@@ -538,16 +538,16 @@
         <funds>433.00</funds>
     </userCommand>
     <systemEvent>
-        <timestamp>1524385580052</timestamp>
+        <timestamp>1524388280852</timestamp>
         <server>TS0156</server>
         <transactionNum>49</transactionNum>
         <command>QUOTE</command>
         <username>oY01WVirLr</username>
         <stockSymbol>S</stockSymbol>
-        <funds>0.92</funds>
+        <funds>0.38</funds>
     </systemEvent>
     <errorEvent>
-        <timestamp>1524385580055</timestamp>
+        <timestamp>1524388280854</timestamp>
         <server>TS0156</server>
         <transactionNum>50</transactionNum>
         <command>SET_SELL_TRIGGER</command>
@@ -556,7 +556,7 @@
         <errorMessage>You have to SET SELL AMOUNT on stock S first.</errorMessage>
     </errorEvent>
     <userCommand>
-        <timestamp>1524385580110</timestamp>
+        <timestamp>1524388280857</timestamp>
         <server>TS0156</server>
         <transactionNum>51</transactionNum>
         <command>BUY</command>
@@ -565,16 +565,16 @@
         <funds>387.00</funds>
     </userCommand>
     <systemEvent>
-        <timestamp>1524385580110</timestamp>
+        <timestamp>1524388280857</timestamp>
         <server>TS0156</server>
         <transactionNum>51</transactionNum>
         <command>QUOTE</command>
         <username>oY01WVirLr</username>
         <stockSymbol>S</stockSymbol>
-        <funds>0.92</funds>
+        <funds>0.38</funds>
     </systemEvent>
     <errorEvent>
-        <timestamp>1524385580114</timestamp>
+        <timestamp>1524388280860</timestamp>
         <server>TS0156</server>
         <transactionNum>52</transactionNum>
         <command>COMMIT_BUY</command>
@@ -583,7 +583,7 @@
         <errorMessage>No BUY transactions previously set for account.</errorMessage>
     </errorEvent>
     <errorEvent>
-        <timestamp>1524385580116</timestamp>
+        <timestamp>1524388280861</timestamp>
         <server>TS0156</server>
         <transactionNum>53</transactionNum>
         <command>CANCEL_BUY</command>
@@ -592,7 +592,7 @@
         <errorMessage>There are no BUY transcations to cancel for account oY01WVirLr</errorMessage>
     </errorEvent>
     <errorEvent>
-        <timestamp>1524385580160</timestamp>
+        <timestamp>1524388280863</timestamp>
         <server>TS0156</server>
         <transactionNum>54</transactionNum>
         <command>COMMIT_BUY</command>
@@ -601,7 +601,7 @@
         <errorMessage>No BUY transactions previously set for account.</errorMessage>
     </errorEvent>
     <errorEvent>
-        <timestamp>1524385580162</timestamp>
+        <timestamp>1524388280865</timestamp>
         <server>TS0156</server>
         <transactionNum>55</transactionNum>
         <command>COMMIT_SELL</command>
@@ -610,7 +610,7 @@
         <errorMessage>No SELL transactions previously set for account</errorMessage>
     </errorEvent>
     <errorEvent>
-        <timestamp>1524385580164</timestamp>
+        <timestamp>1524388280867</timestamp>
         <server>TS0156</server>
         <transactionNum>56</transactionNum>
         <command>CANCEL_SET_BUY</command>
@@ -619,7 +619,7 @@
         <errorMessage>No SET BUY AMOUNT was previously set for this account</errorMessage>
     </errorEvent>
     <errorEvent>
-        <timestamp>1524385580166</timestamp>
+        <timestamp>1524388280869</timestamp>
         <server>TS0156</server>
         <transactionNum>57</transactionNum>
         <command>CANCEL_SET_BUY</command>
@@ -628,7 +628,7 @@
         <errorMessage>No SET BUY AMOUNT was previously set for this account</errorMessage>
     </errorEvent>
     <userCommand>
-        <timestamp>1524385580166</timestamp>
+        <timestamp>1524388280869</timestamp>
         <server>TS0156</server>
         <transactionNum>58</transactionNum>
         <command>DISPLAY_SUMMARY</command>
@@ -637,34 +637,34 @@
         <funds>0.00</funds>
     </userCommand>
     <systemEvent>
-        <timestamp>1524385580225</timestamp>
+        <timestamp>1524388280870</timestamp>
         <server>TS0156</server>
         <transactionNum>59</transactionNum>
         <command>QUOTE</command>
         <username>oY01WVirLr</username>
         <stockSymbol></stockSymbol>
-        <funds>0.77</funds>
+        <funds>0.00</funds>
     </systemEvent>
     <systemEvent>
-        <timestamp>1524385580226</timestamp>
+        <timestamp>1524388280871</timestamp>
         <server>TS0156</server>
         <transactionNum>60</transactionNum>
         <command>QUOTE</command>
         <username>oY01WVirLr</username>
         <stockSymbol></stockSymbol>
-        <funds>0.77</funds>
+        <funds>0.00</funds>
     </systemEvent>
     <systemEvent>
-        <timestamp>1524385580227</timestamp>
+        <timestamp>1524388280875</timestamp>
         <server>TS0156</server>
         <transactionNum>61</transactionNum>
         <command>QUOTE</command>
         <username>oY01WVirLr</username>
         <stockSymbol>S</stockSymbol>
-        <funds>0.92</funds>
+        <funds>0.38</funds>
     </systemEvent>
     <userCommand>
-        <timestamp>1524385580227</timestamp>
+        <timestamp>1524388280875</timestamp>
         <server>TS0156</server>
         <transactionNum>61</transactionNum>
         <command>SELL</command>
@@ -673,7 +673,7 @@
         <funds>429.00</funds>
     </userCommand>
     <errorEvent>
-        <timestamp>1524385580228</timestamp>
+        <timestamp>1524388280875</timestamp>
         <server>TS0156</server>
         <transactionNum>61</transactionNum>
         <command>SELL</command>
@@ -682,7 +682,7 @@
         <errorMessage>User does not have enough stock S to sell.</errorMessage>
     </errorEvent>
     <errorEvent>
-        <timestamp>1524385580230</timestamp>
+        <timestamp>1524388280878</timestamp>
         <server>TS0156</server>
         <transactionNum>62</transactionNum>
         <command>SET_SELL_TRIGGER</command>
@@ -691,7 +691,7 @@
         <errorMessage>You have to SET SELL AMOUNT on stock S first.</errorMessage>
     </errorEvent>
     <userCommand>
-        <timestamp>1524385580232</timestamp>
+        <timestamp>1524388280880</timestamp>
         <server>TS0156</server>
         <transactionNum>63</transactionNum>
         <command>BUY</command>
@@ -700,16 +700,16 @@
         <funds>384.00</funds>
     </userCommand>
     <systemEvent>
-        <timestamp>1524385580232</timestamp>
+        <timestamp>1524388280880</timestamp>
         <server>TS0156</server>
         <transactionNum>63</transactionNum>
         <command>QUOTE</command>
         <username>oY01WVirLr</username>
         <stockSymbol>S</stockSymbol>
-        <funds>0.92</funds>
+        <funds>0.38</funds>
     </systemEvent>
     <errorEvent>
-        <timestamp>1524385580291</timestamp>
+        <timestamp>1524388280883</timestamp>
         <server>TS0156</server>
         <transactionNum>64</transactionNum>
         <command>COMMIT_BUY</command>
@@ -718,7 +718,7 @@
         <errorMessage>No BUY transactions previously set for account.</errorMessage>
     </errorEvent>
     <errorEvent>
-        <timestamp>1524385580293</timestamp>
+        <timestamp>1524388280884</timestamp>
         <server>TS0156</server>
         <transactionNum>65</transactionNum>
         <command>COMMIT_BUY</command>
@@ -727,7 +727,7 @@
         <errorMessage>No BUY transactions previously set for account.</errorMessage>
     </errorEvent>
     <userCommand>
-        <timestamp>1524385580295</timestamp>
+        <timestamp>1524388280886</timestamp>
         <server>TS0156</server>
         <transactionNum>66</transactionNum>
         <command>BUY</command>
@@ -736,16 +736,16 @@
         <funds>357.00</funds>
     </userCommand>
     <systemEvent>
-        <timestamp>1524385580295</timestamp>
+        <timestamp>1524388280887</timestamp>
         <server>TS0156</server>
         <transactionNum>66</transactionNum>
         <command>QUOTE</command>
         <username>oY01WVirLr</username>
         <stockSymbol>S</stockSymbol>
-        <funds>0.92</funds>
+        <funds>0.38</funds>
     </systemEvent>
     <errorEvent>
-        <timestamp>1524385580297</timestamp>
+        <timestamp>1524388280889</timestamp>
         <server>TS0156</server>
         <transactionNum>67</transactionNum>
         <command>CANCEL_BUY</command>
@@ -754,7 +754,7 @@
         <errorMessage>There are no BUY transcations to cancel for account oY01WVirLr</errorMessage>
     </errorEvent>
     <errorEvent>
-        <timestamp>1524385580299</timestamp>
+        <timestamp>1524388280891</timestamp>
         <server>TS0156</server>
         <transactionNum>68</transactionNum>
         <command>SET_SELL_AMOUNT</command>
@@ -763,7 +763,7 @@
         <errorMessage>Account does not have enough stock to sell </errorMessage>
     </errorEvent>
     <errorEvent>
-        <timestamp>1524385580356</timestamp>
+        <timestamp>1524388280893</timestamp>
         <server>TS0156</server>
         <transactionNum>69</transactionNum>
         <command>CANCEL_SET_SELL</command>
@@ -772,7 +772,7 @@
         <errorMessage>No SET SELL AMOUNT was previously set for this account</errorMessage>
     </errorEvent>
     <userCommand>
-        <timestamp>1524385580358</timestamp>
+        <timestamp>1524388280895</timestamp>
         <server>TS0156</server>
         <transactionNum>70</transactionNum>
         <command>BUY</command>
@@ -781,16 +781,16 @@
         <funds>516.00</funds>
     </userCommand>
     <systemEvent>
-        <timestamp>1524385580359</timestamp>
+        <timestamp>1524388280895</timestamp>
         <server>TS0156</server>
         <transactionNum>70</transactionNum>
         <command>QUOTE</command>
         <username>oY01WVirLr</username>
         <stockSymbol>S</stockSymbol>
-        <funds>0.92</funds>
+        <funds>0.38</funds>
     </systemEvent>
     <errorEvent>
-        <timestamp>1524385580361</timestamp>
+        <timestamp>1524388280898</timestamp>
         <server>TS0156</server>
         <transactionNum>71</transactionNum>
         <command>CANCEL_BUY</command>
@@ -798,8 +798,17 @@
         <funds>0.00</funds>
         <errorMessage>There are no BUY transcations to cancel for account oY01WVirLr</errorMessage>
     </errorEvent>
+    <systemEvent>
+        <timestamp>1524388280900</timestamp>
+        <server>TS0156</server>
+        <transactionNum>72</transactionNum>
+        <command>QUOTE</command>
+        <username>oY01WVirLr</username>
+        <stockSymbol>S</stockSymbol>
+        <funds>0.38</funds>
+    </systemEvent>
     <userCommand>
-        <timestamp>1524385580363</timestamp>
+        <timestamp>1524388280900</timestamp>
         <server>TS0156</server>
         <transactionNum>72</transactionNum>
         <command>SELL</command>
@@ -807,17 +816,8 @@
         <stockSymbol>S</stockSymbol>
         <funds>41.00</funds>
     </userCommand>
-    <systemEvent>
-        <timestamp>1524385580363</timestamp>
-        <server>TS0156</server>
-        <transactionNum>72</transactionNum>
-        <command>QUOTE</command>
-        <username>oY01WVirLr</username>
-        <stockSymbol>S</stockSymbol>
-        <funds>0.92</funds>
-    </systemEvent>
     <errorEvent>
-        <timestamp>1524385580363</timestamp>
+        <timestamp>1524388280900</timestamp>
         <server>TS0156</server>
         <transactionNum>72</transactionNum>
         <command>SELL</command>
@@ -826,7 +826,7 @@
         <errorMessage>User does not have enough stock S to sell.</errorMessage>
     </errorEvent>
     <errorEvent>
-        <timestamp>1524385580366</timestamp>
+        <timestamp>1524388280903</timestamp>
         <server>TS0156</server>
         <transactionNum>73</transactionNum>
         <command>SET_SELL_TRIGGER</command>
@@ -835,7 +835,7 @@
         <errorMessage>You have to SET SELL AMOUNT on stock S first.</errorMessage>
     </errorEvent>
     <errorEvent>
-        <timestamp>1524385580422</timestamp>
+        <timestamp>1524388280905</timestamp>
         <server>TS0156</server>
         <transactionNum>74</transactionNum>
         <command>COMMIT_SELL</command>
@@ -844,7 +844,7 @@
         <errorMessage>No SELL transactions previously set for account</errorMessage>
     </errorEvent>
     <errorEvent>
-        <timestamp>1524385580424</timestamp>
+        <timestamp>1524388280907</timestamp>
         <server>TS0156</server>
         <transactionNum>75</transactionNum>
         <command>CANCEL_SET_BUY</command>
@@ -853,7 +853,7 @@
         <errorMessage>No SET BUY AMOUNT was previously set for this account</errorMessage>
     </errorEvent>
     <errorEvent>
-        <timestamp>1524385580426</timestamp>
+        <timestamp>1524388280908</timestamp>
         <server>TS0156</server>
         <transactionNum>76</transactionNum>
         <command>CANCEL_SET_SELL</command>
@@ -862,7 +862,7 @@
         <errorMessage>No SET SELL AMOUNT was previously set for this account</errorMessage>
     </errorEvent>
     <userCommand>
-        <timestamp>1524385580428</timestamp>
+        <timestamp>1524388280911</timestamp>
         <server>TS0156</server>
         <transactionNum>77</transactionNum>
         <command>BUY</command>
@@ -871,16 +871,16 @@
         <funds>289.00</funds>
     </userCommand>
     <systemEvent>
-        <timestamp>1524385580428</timestamp>
+        <timestamp>1524388280911</timestamp>
         <server>TS0156</server>
         <transactionNum>77</transactionNum>
         <command>QUOTE</command>
         <username>oY01WVirLr</username>
         <stockSymbol>S</stockSymbol>
-        <funds>0.92</funds>
+        <funds>0.38</funds>
     </systemEvent>
     <errorEvent>
-        <timestamp>1524385580430</timestamp>
+        <timestamp>1524388280913</timestamp>
         <server>TS0156</server>
         <transactionNum>78</transactionNum>
         <command>CANCEL_SET_BUY</command>
@@ -889,7 +889,7 @@
         <errorMessage>No SET BUY AMOUNT was previously set for this account</errorMessage>
     </errorEvent>
     <accountTransaction>
-        <timestamp>1524385580434</timestamp>
+        <timestamp>1524388280921</timestamp>
         <server>TS0156</server>
         <transactionNum>79</transactionNum>
         <username>oY01WVirLr</username>
@@ -897,16 +897,16 @@
         <funds>87863.00</funds>
     </accountTransaction>
     <systemEvent>
-        <timestamp>1524385580457</timestamp>
+        <timestamp>1524388280922</timestamp>
         <server>TS0156</server>
         <transactionNum>80</transactionNum>
         <command>QUOTE</command>
         <username>oY01WVirLr</username>
         <stockSymbol></stockSymbol>
-        <funds>0.77</funds>
+        <funds>0.00</funds>
     </systemEvent>
     <userCommand>
-        <timestamp>1524385580494</timestamp>
+        <timestamp>1524388280925</timestamp>
         <server>TS0156</server>
         <transactionNum>81</transactionNum>
         <command>BUY</command>
@@ -915,16 +915,16 @@
         <funds>333.00</funds>
     </userCommand>
     <systemEvent>
-        <timestamp>1524385580494</timestamp>
+        <timestamp>1524388280926</timestamp>
         <server>TS0156</server>
         <transactionNum>81</transactionNum>
         <command>QUOTE</command>
         <username>oY01WVirLr</username>
         <stockSymbol>S</stockSymbol>
-        <funds>0.92</funds>
+        <funds>0.38</funds>
     </systemEvent>
     <errorEvent>
-        <timestamp>1524385580497</timestamp>
+        <timestamp>1524388280929</timestamp>
         <server>TS0156</server>
         <transactionNum>82</transactionNum>
         <command>COMMIT_BUY</command>
@@ -932,17 +932,8 @@
         <funds>0.00</funds>
         <errorMessage>No BUY transactions previously set for account.</errorMessage>
     </errorEvent>
-    <systemEvent>
-        <timestamp>1524385580499</timestamp>
-        <server>TS0156</server>
-        <transactionNum>83</transactionNum>
-        <command>QUOTE</command>
-        <username>oY01WVirLr</username>
-        <stockSymbol>S</stockSymbol>
-        <funds>0.92</funds>
-    </systemEvent>
     <userCommand>
-        <timestamp>1524385580499</timestamp>
+        <timestamp>1524388280931</timestamp>
         <server>TS0156</server>
         <transactionNum>83</transactionNum>
         <command>SELL</command>
@@ -950,8 +941,17 @@
         <stockSymbol>S</stockSymbol>
         <funds>213.00</funds>
     </userCommand>
+    <systemEvent>
+        <timestamp>1524388280931</timestamp>
+        <server>TS0156</server>
+        <transactionNum>83</transactionNum>
+        <command>QUOTE</command>
+        <username>oY01WVirLr</username>
+        <stockSymbol>S</stockSymbol>
+        <funds>0.38</funds>
+    </systemEvent>
     <errorEvent>
-        <timestamp>1524385580499</timestamp>
+        <timestamp>1524388280932</timestamp>
         <server>TS0156</server>
         <transactionNum>83</transactionNum>
         <command>SELL</command>
@@ -960,7 +960,7 @@
         <errorMessage>User does not have enough stock S to sell.</errorMessage>
     </errorEvent>
     <userCommand>
-        <timestamp>1524385580568</timestamp>
+        <timestamp>1524388280935</timestamp>
         <server>TS0156</server>
         <transactionNum>84</transactionNum>
         <command>BUY</command>
@@ -969,16 +969,16 @@
         <funds>427.00</funds>
     </userCommand>
     <systemEvent>
-        <timestamp>1524385580569</timestamp>
+        <timestamp>1524388280936</timestamp>
         <server>TS0156</server>
         <transactionNum>84</transactionNum>
         <command>QUOTE</command>
         <username>oY01WVirLr</username>
         <stockSymbol>S</stockSymbol>
-        <funds>0.92</funds>
+        <funds>0.38</funds>
     </systemEvent>
     <errorEvent>
-        <timestamp>1524385580572</timestamp>
+        <timestamp>1524388280938</timestamp>
         <server>TS0156</server>
         <transactionNum>85</transactionNum>
         <command>CANCEL_SELL</command>
@@ -987,7 +987,7 @@
         <errorMessage>There are no SELL transcations to cancel for account oY01WVirLr</errorMessage>
     </errorEvent>
     <userCommand>
-        <timestamp>1524385580574</timestamp>
+        <timestamp>1524388280941</timestamp>
         <server>TS0156</server>
         <transactionNum>86</transactionNum>
         <command>BUY</command>
@@ -996,16 +996,16 @@
         <funds>730.00</funds>
     </userCommand>
     <systemEvent>
-        <timestamp>1524385580574</timestamp>
+        <timestamp>1524388280941</timestamp>
         <server>TS0156</server>
         <transactionNum>86</transactionNum>
         <command>QUOTE</command>
         <username>oY01WVirLr</username>
         <stockSymbol>S</stockSymbol>
-        <funds>0.92</funds>
+        <funds>0.38</funds>
     </systemEvent>
     <errorEvent>
-        <timestamp>1524385580576</timestamp>
+        <timestamp>1524388280944</timestamp>
         <server>TS0156</server>
         <transactionNum>87</transactionNum>
         <command>COMMIT_BUY</command>
@@ -1014,7 +1014,7 @@
         <errorMessage>No BUY transactions previously set for account.</errorMessage>
     </errorEvent>
     <userCommand>
-        <timestamp>1524385580577</timestamp>
+        <timestamp>1524388280946</timestamp>
         <server>TS0156</server>
         <transactionNum>88</transactionNum>
         <command>BUY</command>
@@ -1023,16 +1023,16 @@
         <funds>36.00</funds>
     </userCommand>
     <systemEvent>
-        <timestamp>1524385580578</timestamp>
+        <timestamp>1524388280946</timestamp>
         <server>TS0156</server>
         <transactionNum>88</transactionNum>
         <command>QUOTE</command>
         <username>oY01WVirLr</username>
         <stockSymbol>S</stockSymbol>
-        <funds>0.92</funds>
+        <funds>0.38</funds>
     </systemEvent>
     <errorEvent>
-        <timestamp>1524385580580</timestamp>
+        <timestamp>1524388280949</timestamp>
         <server>TS0156</server>
         <transactionNum>89</transactionNum>
         <command>COMMIT_BUY</command>
@@ -1041,16 +1041,16 @@
         <errorMessage>No BUY transactions previously set for account.</errorMessage>
     </errorEvent>
     <systemEvent>
-        <timestamp>1524385580581</timestamp>
+        <timestamp>1524388280951</timestamp>
         <server>TS0156</server>
         <transactionNum>90</transactionNum>
         <command>QUOTE</command>
         <username>oY01WVirLr</username>
         <stockSymbol>S</stockSymbol>
-        <funds>0.92</funds>
+        <funds>0.38</funds>
     </systemEvent>
     <userCommand>
-        <timestamp>1524385580581</timestamp>
+        <timestamp>1524388280951</timestamp>
         <server>TS0156</server>
         <transactionNum>90</transactionNum>
         <command>SELL</command>
@@ -1059,7 +1059,7 @@
         <funds>644.00</funds>
     </userCommand>
     <errorEvent>
-        <timestamp>1524385580582</timestamp>
+        <timestamp>1524388280952</timestamp>
         <server>TS0156</server>
         <transactionNum>90</transactionNum>
         <command>SELL</command>
@@ -1068,7 +1068,7 @@
         <errorMessage>User does not have enough stock S to sell.</errorMessage>
     </errorEvent>
     <errorEvent>
-        <timestamp>1524385580585</timestamp>
+        <timestamp>1524388280955</timestamp>
         <server>TS0156</server>
         <transactionNum>91</transactionNum>
         <command>CANCEL_SELL</command>
@@ -1077,7 +1077,7 @@
         <errorMessage>There are no SELL transcations to cancel for account oY01WVirLr</errorMessage>
     </errorEvent>
     <errorEvent>
-        <timestamp>1524385580654</timestamp>
+        <timestamp>1524388280958</timestamp>
         <server>TS0156</server>
         <transactionNum>92</transactionNum>
         <command>COMMIT_BUY</command>
@@ -1086,7 +1086,7 @@
         <errorMessage>No BUY transactions previously set for account.</errorMessage>
     </errorEvent>
     <errorEvent>
-        <timestamp>1524385580656</timestamp>
+        <timestamp>1524388280960</timestamp>
         <server>TS0156</server>
         <transactionNum>93</transactionNum>
         <command>CANCEL_SET_SELL</command>
@@ -1095,7 +1095,7 @@
         <errorMessage>No SET SELL AMOUNT was previously set for this account</errorMessage>
     </errorEvent>
     <errorEvent>
-        <timestamp>1524385580658</timestamp>
+        <timestamp>1524388280962</timestamp>
         <server>TS0156</server>
         <transactionNum>94</transactionNum>
         <command>CANCEL_SELL</command>
@@ -1104,7 +1104,7 @@
         <errorMessage>There are no SELL transcations to cancel for account oY01WVirLr</errorMessage>
     </errorEvent>
     <errorEvent>
-        <timestamp>1524385580659</timestamp>
+        <timestamp>1524388280965</timestamp>
         <server>TS0156</server>
         <transactionNum>95</transactionNum>
         <command>CANCEL_SET_SELL</command>
@@ -1113,7 +1113,7 @@
         <errorMessage>No SET SELL AMOUNT was previously set for this account</errorMessage>
     </errorEvent>
     <userCommand>
-        <timestamp>1524385580661</timestamp>
+        <timestamp>1524388280967</timestamp>
         <server>TS0156</server>
         <transactionNum>96</transactionNum>
         <command>BUY</command>
@@ -1122,16 +1122,16 @@
         <funds>749.00</funds>
     </userCommand>
     <systemEvent>
-        <timestamp>1524385580661</timestamp>
+        <timestamp>1524388280967</timestamp>
         <server>TS0156</server>
         <transactionNum>96</transactionNum>
         <command>QUOTE</command>
         <username>oY01WVirLr</username>
         <stockSymbol>S</stockSymbol>
-        <funds>0.92</funds>
+        <funds>0.38</funds>
     </systemEvent>
     <errorEvent>
-        <timestamp>1524385580663</timestamp>
+        <timestamp>1524388280970</timestamp>
         <server>TS0156</server>
         <transactionNum>97</transactionNum>
         <command>COMMIT_BUY</command>
@@ -1140,7 +1140,7 @@
         <errorMessage>No BUY transactions previously set for account.</errorMessage>
     </errorEvent>
     <errorEvent>
-        <timestamp>1524385580665</timestamp>
+        <timestamp>1524388280972</timestamp>
         <server>TS0156</server>
         <transactionNum>98</transactionNum>
         <command>CANCEL_BUY</command>
@@ -1148,17 +1148,8 @@
         <funds>0.00</funds>
         <errorMessage>There are no BUY transcations to cancel for account oY01WVirLr</errorMessage>
     </errorEvent>
-    <systemEvent>
-        <timestamp>1524385580670</timestamp>
-        <server>TS0156</server>
-        <transactionNum>99</transactionNum>
-        <command>QUOTE</command>
-        <username>oY01WVirLr</username>
-        <stockSymbol>S</stockSymbol>
-        <funds>0.92</funds>
-    </systemEvent>
     <userCommand>
-        <timestamp>1524385580670</timestamp>
+        <timestamp>1524388280974</timestamp>
         <server>TS0156</server>
         <transactionNum>99</transactionNum>
         <command>SELL</command>
@@ -1166,8 +1157,17 @@
         <stockSymbol>S</stockSymbol>
         <funds>664.00</funds>
     </userCommand>
+    <systemEvent>
+        <timestamp>1524388280974</timestamp>
+        <server>TS0156</server>
+        <transactionNum>99</transactionNum>
+        <command>QUOTE</command>
+        <username>oY01WVirLr</username>
+        <stockSymbol>S</stockSymbol>
+        <funds>0.38</funds>
+    </systemEvent>
     <errorEvent>
-        <timestamp>1524385580717</timestamp>
+        <timestamp>1524388280975</timestamp>
         <server>TS0156</server>
         <transactionNum>99</transactionNum>
         <command>SELL</command>
@@ -1176,12 +1176,12 @@
         <errorMessage>User does not have enough stock S to sell.</errorMessage>
     </errorEvent>
     <userCommand>
-        <timestamp>1524385580718</timestamp>
+        <timestamp>1524388280975</timestamp>
         <server>TS0156</server>
         <transactionNum>100</transactionNum>
         <command>DUMPLOG</command>
         <username>oY01WVirLr</username>
-        <stockSymbol>S</stockSymbol>
+        <stockSymbol>NONE</stockSymbol>
         <funds>0.00</funds>
     </userCommand>
 </log>

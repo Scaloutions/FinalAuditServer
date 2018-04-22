@@ -10,25 +10,28 @@ import (
 )
 
 const (
-	Database     = "mongoTest"
+	Database     = "auditServerEvents"
 	Collection   = "systemEvents_collection"
-	MongoDBHosts = "localhost:27017"
+	MongoDBHosts = "mongoserver:27017"
 )
 
 func getDBCollection() *mgo.Collection {
+	glog.Info("Contacting mongo..")
 	mongoDBDialInfo := &mgo.DialInfo{
 		Addrs:    []string{MongoDBHosts},
-		Timeout:  60 * time.Second,
+		Timeout:  10 * time.Second,
 		Database: Database,
 	}
 
+	glog.Info("About to dial with info:", mongoDBDialInfo)
 	mongoSession, err := mgo.DialWithInfo(mongoDBDialInfo)
 	if err != nil {
 		glog.Info("ERROR: CreateSession: %s\n", err)
+	} else {
+		eventsCollection := mongoSession.DB(Database).C(Collection)
+		return eventsCollection
 	}
-
-	eventsCollection := mongoSession.DB(Database).C(Collection)
-	return eventsCollection
+	return nil
 }
 
 func findAllAndLogToFile(eventsCollection *mgo.Collection) {

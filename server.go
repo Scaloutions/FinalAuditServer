@@ -111,6 +111,12 @@ func main() {
 	glog.Info("Spinning up the server..")
 
 	var eventsCollection = getDBCollection()
+
+	if eventsCollection == nil {
+		glog.Info("Cound not connect! Returned nill!")
+	}
+
+	glog.Info("Connecting to mongoDb")
 	clearDb(eventsCollection)
 	initXml()
 
