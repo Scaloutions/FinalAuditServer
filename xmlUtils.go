@@ -75,11 +75,10 @@ func logEventToXML(genericEventType GenericEventType, event interface{}) {
 		break
 
 	case QUOTE_SERVER_EVENT:
-		// UNCOMMENTING BECUASE CRYPTOKEYS DONT WORK
-		// var currentEvent QuoteServerEvent
-		// bsonBytes, _ := bson.Marshal(event)
-		// bson.Unmarshal(bsonBytes, &currentEvent)
-		// performXMLWrite(currentEvent)
+		var currentEvent QuoteServerEvent
+		bsonBytes, _ := bson.Marshal(event)
+		bson.Unmarshal(bsonBytes, &currentEvent)
+		performXMLWrite(currentEvent)
 		break
 
 	case USER_COMMAND:
