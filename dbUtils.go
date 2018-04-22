@@ -11,7 +11,7 @@ import (
 
 const (
 	Database     = "mongoTest"
-	Collection   = "sysEvent_collection_100"
+	Collection   = "systemEvents_collection"
 	MongoDBHosts = "localhost:27017"
 )
 
@@ -31,24 +31,22 @@ func getDBCollection() *mgo.Collection {
 	return eventsCollection
 }
 
-func findAll(eventsCollection *mgo.Collection) {
-	glog.Info("Now retrieving all records")
+func findAllAndLogToFile(eventsCollection *mgo.Collection) {
+	glog.Info("Retrieving all records")
 	var result []interface{}
 	iter := eventsCollection.Find(nil)
 	err := iter.All(&result)
 	if err != nil {
-		glog.Info("ERRRPR", err)
+		glog.Info("Error: ", err)
 	} else {
+		glog.Info("Logging events to XML file")
 		for event := range result {
-			// glog.Info("Event:", event, reflect.TypeOf(result[event]))
 			var tempEvent GenericEventType
 			bsonBytes, _ := bson.Marshal(result[event])
 			bson.Unmarshal(bsonBytes, &tempEvent)
-			glog.Info(tempEvent)
-
 			logEventToXML(tempEvent, result[event])
-
 		}
+		glog.Info("========= XML File is ready! :D ========= ")
 	}
 }
 
@@ -56,6 +54,6 @@ func insertRecord(eventsCollection *mgo.Collection, logMsg interface{}) {
 	if err := eventsCollection.Insert(logMsg); err != nil {
 		glog.Info("Error in insertion : ", err)
 	} else {
-		glog.Info("Success! Inserted event!")
+		glog.Info("SUCCESS: Inserted event - ", logMsg)
 	}
 }

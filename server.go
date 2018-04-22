@@ -33,7 +33,6 @@ func homeFunc(w http.ResponseWriter, r *http.Request) {
 }
 
 func parseEvent(w http.ResponseWriter, r *http.Request, eventsCollection *mgo.Collection, eventType string) {
-	glog.Info("\n Recieved Event type: ", eventType)
 	switch eventType {
 	case SYSTEM_EVENT:
 		eventMsg := SystemEvent{
@@ -91,7 +90,7 @@ func parseEvent(w http.ResponseWriter, r *http.Request, eventsCollection *mgo.Co
 		break
 
 	case LOG_EVENT:
-		findAll(eventsCollection)
+		findAllAndLogToFile(eventsCollection)
 		break
 	}
 
@@ -112,9 +111,11 @@ func main() {
 	glog.Info("Spinning up the server..")
 
 	var eventsCollection = getDBCollection()
+	clearDb(eventsCollection)
 	initXml()
 
 	router.HandleFunc("/", homeFunc).Methods("GET")
+
 	router.HandleFunc("/api/systemevent", func(w http.ResponseWriter, r *http.Request) {
 		parseEvent(w, r, eventsCollection, SYSTEM_EVENT)
 	}).Methods("POST")
@@ -142,8 +143,6 @@ func main() {
 	router.HandleFunc("/api/cleardb", func(w http.ResponseWriter, r *http.Request) {
 		clearDb(eventsCollection)
 	}).Methods("GET")
-
-	// ADD TO CLEAR DB
 
 	log.Fatal(http.ListenAndServe(":8082", router))
 }
