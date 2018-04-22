@@ -12,7 +12,7 @@ import (
 const (
 	Database     = "auditServerEvents"
 	Collection   = "systemEvents_collection"
-	MongoDBHosts = "localhost:27017"
+	MongoDBHosts = "mongodb:27017"
 )
 
 func getDBCollection() *mgo.Collection {
