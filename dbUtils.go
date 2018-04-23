@@ -1,6 +1,8 @@
 package main
 
 import (
+	"os"
+	"strconv"
 	"time"
 
 	"github.com/golang/glog"
@@ -10,15 +12,35 @@ import (
 )
 
 const (
-	Database     = "auditServerEvents"
-	Collection   = "systemEvents_collection"
-	MongoDBHosts = "mongodb:27017"
+	Database   = "auditServerEvents"
+	Collection = "systemEvents_collection"
 )
+
+func getMongoHost() []string {
+	prodEnv, err := strconv.ParseBool(os.Getenv("DEV_ENVIRONMENT"))
+
+	if err != nil {
+		glog.Info("Error reading env file! Using prod config")
+		return []string{os.Getenv("MONGO_PROD_HOST") + os.Getenv("MONGO_PORT")}
+	} else {
+		glog.Info("PRODUCTION ENV: ", prodEnv)
+	}
+
+	if prodEnv == true {
+		host := os.Getenv("MONGO_PROD_HOST") + os.Getenv("MONGO_PORT")
+		glog.Info("Using mongo host:", host)
+		return []string{host}
+	} else {
+		host := os.Getenv("MONGO_DEV_HOST") + os.Getenv("MONGO_PORT")
+		glog.Info("Using mongo host:", host)
+		return []string{}
+	}
+}
 
 func getDBCollection() *mgo.Collection {
 	glog.Info("Contacting mongo..")
 	mongoDBDialInfo := &mgo.DialInfo{
-		Addrs:    []string{MongoDBHosts},
+		Addrs:    getMongoHost(),
 		Timeout:  10 * time.Second,
 		Database: Database,
 	}

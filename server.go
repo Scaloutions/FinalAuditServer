@@ -114,10 +114,12 @@ func main() {
 
 	if eventsCollection == nil {
 		glog.Info("Cound not connect! Returned nill!")
+	} else {
+		glog.Info("Connected to Mongo!")
+		glog.Info("Clearing DB!")
+		clearDb(eventsCollection)
 	}
 
-	glog.Info("Connecting to mongoDb")
-	clearDb(eventsCollection)
 	initXml()
 
 	router.HandleFunc("/", homeFunc).Methods("GET")
