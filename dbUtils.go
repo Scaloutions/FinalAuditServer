@@ -14,6 +14,7 @@ import (
 const (
 	Database   = "auditServerEvents"
 	Collection = "systemEvents_collection"
+	MongoHost  = "mongodb:27017"
 )
 
 func getMongoHost() []string {
@@ -21,7 +22,7 @@ func getMongoHost() []string {
 
 	if err != nil {
 		glog.Info("Error reading env file! Using prod config")
-		return []string{os.Getenv("MONGO_PROD_HOST") + os.Getenv("MONGO_PORT")}
+		return []string{MongoHost}
 	} else {
 		glog.Info("PRODUCTION ENV: ", prodEnv)
 	}
